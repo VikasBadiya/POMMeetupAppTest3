@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="2" failed="0" skipped="7">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T22:34:03 IST" name="All Test Suite" finished-at="2023-09-20T22:34:12 IST" duration-ms="8896">
+    <groups>
+    </groups>
+    <test started-at="2023-09-20T22:34:03 IST" name="POMMeetupAppTest3" finished-at="2023-09-20T22:34:12 IST" duration-ms="8896">
+      <class name="TestScenarios.RegistrationPageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:03 IST" name="SetUp" finished-at="2023-09-20T22:34:06 IST" duration-ms="3077" status="FAIL">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestUIRegistrationPage()[pri:1, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:06 IST" name="TestUIRegistrationPage" finished-at="2023-09-20T22:34:06 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestUIRegistrationPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:06 IST" name="TearDown" finished-at="2023-09-20T22:34:06 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:09 IST" name="SetUp" finished-at="2023-09-20T22:34:09 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestFunctionalityRPageEmptyName()[pri:2, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:09 IST" name="TestFunctionalityRPageEmptyName" finished-at="2023-09-20T22:34:09 IST" duration-ms="0" status="SKIP">
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFunctionalityRPageEmptyName -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:09 IST" name="TearDown" finished-at="2023-09-20T22:34:09 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="SetUp" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestFunctionalityRegistrationValidInput(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TestFunctionalityRegistrationValidInput" data-provider="dataSet" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jack]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ARTS_AND_CULTURE]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Arts and Culture]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFunctionalityRegistrationValidInput -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TearDown" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="SetUp" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestFunctionalityRegistrationValidInput(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TestFunctionalityRegistrationValidInput" data-provider="dataSet" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jerry]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CAREER_AND_BUSINESS]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Career and Business]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFunctionalityRegistrationValidInput -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TearDown" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="TestFunctionalityRegistrationValidInput(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TestFunctionalityRegistrationValidInput" data-provider="dataSet" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[John]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[EDUCATION_AND_LEARNING]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Education and Learning]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFunctionalityRegistrationValidInput -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="SetUp" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TearDown" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="TestFunctionalityRegistrationValidInput(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TestFunctionalityRegistrationValidInput" data-provider="dataSet" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[FASHION_AND_BEAUTY]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Fashion and Learning]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFunctionalityRegistrationValidInput -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="SetUp" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TearDown" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method signature="TestFunctionalityRegistrationValidInput(java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TestFunctionalityRegistrationValidInput" data-provider="dataSet" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GAMES]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Games]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.InvalidSelectorException">
+            <message>
+              <![CDATA[Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.9.1', revision: 'eb2032df7f'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '20.0.1'
+Driver info: driver.version: unknown
+at org.openqa.selenium.By$ByClassName.<init>(By.java:310)
+at org.openqa.selenium.By.className(By.java:100)
+at org.openqa.selenium.support.How$1.buildBy(How.java:26)
+at org.openqa.selenium.support.AbstractFindByBuilder.buildByFromLongFindBy(AbstractFindByBuilder.java:79)
+at org.openqa.selenium.support.FindBy$FindByBuilder.buildIt(FindBy.java:87)
+at org.openqa.selenium.support.pagefactory.Annotations.buildBy(Annotations.java:79)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:58)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.<init>(DefaultElementLocator.java:46)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocatorFactory.createLocator(DefaultElementLocatorFactory.java:33)
+at org.openqa.selenium.support.pagefactory.DefaultFieldDecorator.decorate(DefaultFieldDecorator.java:57)
+at org.openqa.selenium.support.PageFactory.proxyFields(PageFactory.java:111)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:103)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:90)
+at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:78)
+at ObjectPages.RegistrationPage.<init>(RegistrationPage.java:67)
+at TestScenarios.RegistrationPageTest.SetUp(RegistrationPageTest.java:30)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:823)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:590)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.InvalidSelectorException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFunctionalityRegistrationValidInput -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="SetUp" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.RegistrationPageTest@15b204a1]" started-at="2023-09-20T22:34:12 IST" name="TearDown" finished-at="2023-09-20T22:34:12 IST" duration-ms="0" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestScenarios.RegistrationPageTest -->
+      <class name="TestScenarios.WelcomePageTest">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.WelcomePageTest@778d1062]" started-at="2023-09-20T22:34:06 IST" name="SetUp" finished-at="2023-09-20T22:34:09 IST" duration-ms="2680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestWelcomePageUI()[pri:1, instance:TestScenarios.WelcomePageTest@778d1062]" started-at="2023-09-20T22:34:09 IST" name="TestWelcomePageUI" finished-at="2023-09-20T22:34:09 IST" duration-ms="153" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestWelcomePageUI -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.WelcomePageTest@778d1062]" started-at="2023-09-20T22:34:09 IST" name="TearDown" finished-at="2023-09-20T22:34:09 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:TestScenarios.WelcomePageTest@778d1062]" started-at="2023-09-20T22:34:09 IST" name="SetUp" finished-at="2023-09-20T22:34:11 IST" duration-ms="2227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="TestFunctionalityWelcomePage()[pri:2, instance:TestScenarios.WelcomePageTest@778d1062]" started-at="2023-09-20T22:34:11 IST" name="TestFunctionalityWelcomePage" finished-at="2023-09-20T22:34:11 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFunctionalityWelcomePage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:TestScenarios.WelcomePageTest@778d1062]" started-at="2023-09-20T22:34:11 IST" name="TearDown" finished-at="2023-09-20T22:34:12 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- TestScenarios.WelcomePageTest -->
+    </test> <!-- POMMeetupAppTest3 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
